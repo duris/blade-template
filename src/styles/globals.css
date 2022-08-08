@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  header{
+    @apply sm:border-b border-0 bg-white relative
+  }
+  nav{
+    @apply absolute right-0 m-3 hidden sm:inline-block
+  }
+  nav a{
+    @apply text-slate-800 text-sm m-2 text-center hover:text-gray-400 relative top-[1px] transition-all duration-200
+  }
+  .feature{
+   @apply pr-2 h-60 mx-2 mt-4 
+  }
+  .feature h2{
+   @apply border-b mt-4 pb-6 border-t sm:border-t-0 pt-8 sm:pt-2
+  }
+  .mobileNav div{
+   @apply sm:hidden border-b-[3px] h-[9px] w-[30px] 
+  }
+  .mobileNav {
+   @apply cursor-pointer p-1 absolute right-2 top-1 hover:bg-gray-50 rounded-md pb-2
+  }
+}
