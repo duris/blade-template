@@ -6,7 +6,7 @@ export default function Banner(){
     <>
     <div className=" absolute w-full h-screen -top-20 -z-20 opacity-60 sm:max-h-[458px] md:max-h-[488px] max-h-[428px] transition-all duration-200">
       <Image
-        src="/images/white-brick-wall.jpg"
+        src="https://ik.imagekit.io/zhmk2wx4u/white-brick-wall_uyqLG0jZT.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660076642698"
         layout="fill"
         objectFit="cover"      
         className="-z-20"  
